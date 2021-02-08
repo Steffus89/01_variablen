@@ -3,7 +3,7 @@
 // Zeilenkommentar
 
 /**
- * Blockkommenta
+ * Blockkommentar
  */
  
  // Ausgabe
@@ -26,3 +26,12 @@ familyName = prompt("Bitte Namen eingeben");
 
 console.log("Hallo, " + firstName + " " + familyName + "!");
 */
+
+// JS ist eine untypisierte Sprache! | untyped
+let test; // Deklaration
+test = "hi"; // String
+test = 2; // Number
+test = true; // Boolean
+
+console.log("Typ: " + typeof test);
+console.log("Inhalt: " + test);
